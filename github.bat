@@ -1,9 +1,8 @@
 cd %CD%
 git status
-PAUSE
 git add *
-PAUSE
-git commit -m %1
-PAUSE
+@echo off
+set /p message="Enter message: "
+git commit -m "%message%"
 git push origin master
 PAUSE
