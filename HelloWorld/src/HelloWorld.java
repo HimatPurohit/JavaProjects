@@ -44,5 +44,10 @@ public class HelloWorld {
         System.out.println("Maxbyte: "+maxbyte+"\nMinbyte: "+minbyte);
         System.out.println("Maxshort: "+Short.MAX_VALUE+"\nMinshort: "+Short.MIN_VALUE);
         System.out.println("Maxlong: "+Long.MAX_VALUE+"\nMinlong: "+Long.MIN_VALUE);
+        System.out.println('\u0041'+"to"+'\u005A');
+        System.out.println(45+"number");
+        a=60;
+        b=13;
+//        if(a & b) System.out.printf(a&b);
     }
 }
