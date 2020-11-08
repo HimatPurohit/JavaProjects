@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World!");
@@ -47,7 +51,7 @@ public class HelloWorld {
         a = 60;
 //        b = 13;
 //        if(a & b) System.out.printf(a&b);
-        FunctionClass functionClass=new FunctionClass();
+        FunctionClass functionClass = new FunctionClass();
         System.out.println("square of " + a + " = " + functionClass.square(a));
 //        String s="defg";
 //        switch (s){
@@ -102,6 +106,7 @@ public class HelloWorld {
         System.out.println("GCD of a: " + a + " and b : " + b + " is " + functionClass.gcd(a, b));
 
         functionClass.printSquareStar(10);
+        functionClass.getCurrentDateTime();
 
 //        Scanner scanner=new Scanner(System.in);
 //        System.out.println("Enter 3 integer values");
@@ -112,8 +117,112 @@ public class HelloWorld {
 //            System.out.println(p+q+r);
 //        }
 //        scanner.close();
+
+        int[] arrInt = new int[10];
+        System.out.println("Before initializing arrInt:");
+        for (int i = 0; i < arrInt.length; i++) {
+            System.out.println("arrInt[" + i + "] is " + arrInt[i] + " ");
+        }
+        System.out.println(Arrays.toString(arrInt));
+
+
+        for (int i = 0; i < arrInt.length; i++) {
+            arrInt[i] = i * 2;
+        }
+
+//        updateArr(arrInt);
+
+        System.out.println("After initializing arrInt to i*2:");
+        for (int i = 0; i < arrInt.length; i++) {
+            System.out.println("arrInt[" + i + "] is " + arrInt[i] + " ");
+        }
+        System.out.println(Arrays.toString(arrInt));
+
+        for (int i = 1; i <= arrInt.length; i++) {
+            arrInt[arrInt.length - i] = i * 4;
+        }
+
+        System.out.println("Before sorting arrInt:");
+        for (int i = 0; i < arrInt.length; i++) {
+            System.out.println("arrInt[" + i + "] is " + arrInt[i] + " ");
+        }
+        System.out.println(Arrays.toString(arrInt));
+
+        arrSortAsc(arrInt);
+        System.out.println("After sorting arrInt in Ascending:");
+        for (int i = 0; i < arrInt.length; i++) {
+            System.out.println("arrInt[" + i + "] is " + arrInt[i] + " ");
+        }
+        System.out.println(Arrays.toString(arrInt));
+
+        arrSortDesc(arrInt);
+        System.out.println("After sorting arrInt in Descending:");
+        for (int i = 0; i < arrInt.length; i++) {
+            System.out.println("arrInt[" + i + "] is " + arrInt[i] + " ");
+        }
+        System.out.println(Arrays.toString(arrInt));
+
+        reverseArr(arrInt);
+        System.out.println("After Reversing arrInt:");
+        System.out.println(Arrays.toString(arrInt));
+
+        System.out.println(arrInt.length);
+
+
+        List<Integer> al = new ArrayList<Integer>();
+        al.add(10);
+        al.add(20);
+        al.add(30);
+        al.add(40);
+
+        Integer[] arr = new Integer[10];
+        arr = al.toArray(arr);
+
+//        for (Integer x : arr)
+//            System.out.print(x + " ");
+        System.out.println(Arrays.toString(arr));
+        System.out.println(arr.length);
+
+
     }
 
+    static void updateArr(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = i * 3;
+        }
+    }
+
+    static void arrSortAsc(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] < arr[i]) {
+                    arr[i] = arr[i] + arr[j];
+                    arr[j] = arr[i] - arr[j];
+                    arr[i] = arr[i] - arr[j];
+                }
+            }
+        }
+    }
+
+    static void arrSortDesc(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] > arr[i]) {
+                    arr[i] = arr[i] + arr[j];
+                    arr[j] = arr[i] - arr[j];
+                    arr[i] = arr[i] - arr[j];
+                }
+            }
+        }
+    }
+
+    static void reverseArr(int[] arr) {
+        for (int i = 1; i <= arr.length / 2; i++) {
+            arr[i - 1] = arr[i - 1] + arr[arr.length - i];
+            arr[arr.length - i] = arr[i - 1] - arr[arr.length - i];
+            arr[i - 1] = arr[i - 1] - arr[arr.length - i];
+        }
+    }
 
 }
 

@@ -1,10 +1,14 @@
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 public class FunctionClass {
 
-    FunctionClass(){
-        this(1,2);
+    FunctionClass() {
+        this(1, 2);
         System.out.println("********\nFunction Class referenced through Object\n********");
     }
-    FunctionClass(int a,int b) {
+
+    FunctionClass(int a, int b) {
         System.out.println("Constructor called from default constructor using this keyword at start of constructor");
         System.out.println("a: " + a + " b: " + b);
     }
@@ -33,14 +37,14 @@ public class FunctionClass {
         return r;
     }
 
-    public  boolean isPalindrome(int n) {
+    public boolean isPalindrome(int n) {
         if (n < 10) {
             return true;
         }
         return n == reverseDigits(n);
     }
 
-    public  int gcd(int a, int b) {
+    public int gcd(int a, int b) {
         if (a < 1 || b < 1) return -1;
         for (int i = Math.min(a, b); i > 1; i--) {
             if (a % i == 0 && b % i == 0) return i;
@@ -72,5 +76,18 @@ public class FunctionClass {
                 System.out.println();
             }
         }
+    }
+
+    public void getCurrentDateTime(){
+        DateTimeFormatter dtf1 = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+        DateTimeFormatter dtf2= DateTimeFormatter.ofPattern("yyyy/MM/dd");
+        DateTimeFormatter dtf3 = DateTimeFormatter.ofPattern("HH:mm:ss");
+        DateTimeFormatter dtf4 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        LocalDateTime now = LocalDateTime.now();
+        System.out.println("Default Format : "+now);
+        System.out.println("Format yyyy/MM/dd HH:mm:ss : "+dtf1.format(now));
+        System.out.println("Format yyyy/MM/dd : "+dtf2.format(now));
+        System.out.println("Format HH:mm:ss : "+dtf3.format(now));
+        System.out.println("Format dd/MM/yyyy : "+dtf4.format(now));
     }
 }
