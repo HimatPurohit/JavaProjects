@@ -52,6 +52,7 @@ public class HelloWorld {
 //        b = 13;
 //        if(a & b) System.out.printf(a&b);
         FunctionClass functionClass = new FunctionClass();
+
         System.out.println("square of " + a + " = " + functionClass.square(a));
 //        String s="defg";
 //        switch (s){
@@ -183,7 +184,16 @@ public class HelloWorld {
         System.out.println(Arrays.toString(arr));
         System.out.println(arr.length);
 
-
+        ArrayList<Integer> list=new ArrayList<Integer>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+//        list.add("abc");
+        list.add(4);
+        list.add(5);
+        for (Integer i:list) {
+            System.out.println(i);
+        };
     }
 
     static void updateArr(int[] arr) {

@@ -78,16 +78,18 @@ public class FunctionClass {
         }
     }
 
-    public void getCurrentDateTime(){
+    public void getCurrentDateTime() {
         DateTimeFormatter dtf1 = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-        DateTimeFormatter dtf2= DateTimeFormatter.ofPattern("yyyy/MM/dd");
+        DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("yyyy/MM/dd");
         DateTimeFormatter dtf3 = DateTimeFormatter.ofPattern("HH:mm:ss");
         DateTimeFormatter dtf4 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         LocalDateTime now = LocalDateTime.now();
-        System.out.println("Default Format : "+now);
-        System.out.println("Format yyyy/MM/dd HH:mm:ss : "+dtf1.format(now));
-        System.out.println("Format yyyy/MM/dd : "+dtf2.format(now));
-        System.out.println("Format HH:mm:ss : "+dtf3.format(now));
-        System.out.println("Format dd/MM/yyyy : "+dtf4.format(now));
+        System.out.println("Default Format : " + now);
+        System.out.println("Format yyyy/MM/dd HH:mm:ss : " + dtf1.format(now));
+        System.out.println("Format yyyy/MM/dd : " + dtf2.format(now));
+        System.out.println("Format HH:mm:ss : " + dtf3.format(now));
+        System.out.println("Format dd/MM/yyyy : " + dtf4.format(now));
     }
+
+
 }
