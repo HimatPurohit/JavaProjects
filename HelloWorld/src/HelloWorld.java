@@ -194,6 +194,14 @@ public class HelloWorld {
         for (Integer i:list) {
             System.out.println(i);
         };
+
+
+        pyramid(5);
+        pyramid(10);
+        pyramid(20);
+
+
+
     }
 
     static void updateArr(int[] arr) {
@@ -231,6 +239,20 @@ public class HelloWorld {
             arr[i - 1] = arr[i - 1] + arr[arr.length - i];
             arr[arr.length - i] = arr[i - 1] - arr[arr.length - i];
             arr[i - 1] = arr[i - 1] - arr[arr.length - i];
+        }
+    }
+
+    static void pyramid(int n){
+        int k=2*n-1;
+        for (int i=0;i<n;i++){
+            for (int j=0;j<k;j++){
+                System.out.print(" ");
+            }
+            k=k-1;
+            for (int j=0;j<=i;j++){
+                System.out.print("*.");
+            }
+            System.out.println();
         }
     }
 
