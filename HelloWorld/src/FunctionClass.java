@@ -1,7 +1,7 @@
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class FunctionClass {
+public class FunctionClass{
 
     FunctionClass() {
         this(1, 2);
@@ -91,5 +91,22 @@ public class FunctionClass {
         System.out.println("Format dd/MM/yyyy : " + dtf4.format(now));
     }
 
+    public String searchValueInArray(int[] arr, int n){
+        //Binary Search Low Mid High
+        int low=0;
+        int high=arr.length-1;
+        while (low<=high){
+            System.out.print("*");
+            int mid=(low+high)/2;
+            int midVal=arr[mid];
+            int cmp=Integer.compare(midVal,n);
+            if (cmp<0)  low=mid+1;
+            else if(cmp>0) high=mid-1;
+            else{
+                return n + " found at "+mid;
+            }
+        }
+        return "Nothing found";
+    }
 
 }

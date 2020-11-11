@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -196,12 +197,19 @@ public class HelloWorld {
         };
 
 
-        pyramid(5);
-        pyramid(10);
-        pyramid(20);
+//        pyramid(5);
+//        pyramid(10);
+//        pyramid(20);
 
-
-
+        arrSortAsc(arrInt);
+        System.out.println(Arrays.toString(arrInt));
+        System.out.println(functionClass.searchValueInArray(arrInt,4));
+        System.out.println(functionClass.searchValueInArray(arrInt,8));
+        System.out.println(functionClass.searchValueInArray(arrInt,12));
+        System.out.println(functionClass.searchValueInArray(arrInt,16));
+        System.out.println(functionClass.searchValueInArray(arrInt,20));
+        System.out.println(functionClass.searchValueInArray(arrInt,24));
+        System.out.println(functionClass.searchValueInArray(arrInt,50));
     }
 
     static void updateArr(int[] arr) {
