@@ -1,9 +1,11 @@
 import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class HelloWorld {
+    enum BodyTypes {
+        STAR, PLANET, DWARF_PLANET,MOON,COMET,ASTEROID
+    }
+
     public static void main(String[] args) {
         System.out.println("Hello World!");
 //        System.out.println("Hello "+args[0]);
@@ -150,21 +152,21 @@ public class HelloWorld {
         }
         System.out.println(Arrays.toString(arrInt));
 
-        arrSortAsc(arrInt);
+        FunctionClass.arrSortAsc(arrInt);
         System.out.println("After sorting arrInt in Ascending:");
         for (int i = 0; i < arrInt.length; i++) {
             System.out.println("arrInt[" + i + "] is " + arrInt[i] + " ");
         }
         System.out.println(Arrays.toString(arrInt));
 
-        arrSortDesc(arrInt);
+        FunctionClass.arrSortDesc(arrInt);
         System.out.println("After sorting arrInt in Descending:");
         for (int i = 0; i < arrInt.length; i++) {
             System.out.println("arrInt[" + i + "] is " + arrInt[i] + " ");
         }
         System.out.println(Arrays.toString(arrInt));
 
-        reverseArr(arrInt);
+        FunctionClass.reverseArr(arrInt);
         System.out.println("After Reversing arrInt:");
         System.out.println(Arrays.toString(arrInt));
 
@@ -185,84 +187,62 @@ public class HelloWorld {
         System.out.println(Arrays.toString(arr));
         System.out.println(arr.length);
 
-        ArrayList<Integer> list=new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<Integer>();
         list.add(1);
         list.add(2);
         list.add(3);
 //        list.add("abc");
         list.add(4);
         list.add(5);
-        for (Integer i:list) {
+        for (Integer i : list) {
             System.out.println(i);
-        };
+        }
+        ;
 
 
 //        pyramid(5);
 //        pyramid(10);
 //        pyramid(20);
 
-        arrSortAsc(arrInt);
+        FunctionClass.arrSortAsc(arrInt);
         System.out.println(Arrays.toString(arrInt));
-        System.out.println(functionClass.searchValueInArray(arrInt,4));
-        System.out.println(functionClass.searchValueInArray(arrInt,8));
-        System.out.println(functionClass.searchValueInArray(arrInt,12));
-        System.out.println(functionClass.searchValueInArray(arrInt,16));
-        System.out.println(functionClass.searchValueInArray(arrInt,20));
-        System.out.println(functionClass.searchValueInArray(arrInt,24));
-        System.out.println(functionClass.searchValueInArray(arrInt,50));
+        System.out.println(functionClass.searchValueInArray(arrInt, 4));
+        System.out.println(functionClass.searchValueInArray(arrInt, 8));
+        System.out.println(functionClass.searchValueInArray(arrInt, 12));
+        System.out.println(functionClass.searchValueInArray(arrInt, 16));
+        System.out.println(functionClass.searchValueInArray(arrInt, 20));
+        System.out.println(functionClass.searchValueInArray(arrInt, 24));
+        System.out.println(functionClass.searchValueInArray(arrInt, 50));
+
+
+        Set<Integer> square = new HashSet<>();
+        Set<Integer> cube = new HashSet<>();
+
+        for (int i = 1; i <= 100; i++) {
+            square.add(i * i);
+            cube.add(i * i * i);
+        }
+        System.out.println(square.size() + " squares and " + cube.size() + " cubes.");
+        Set<Integer> union = new HashSet<>(square);
+        union.addAll(cube);
+        Set<Integer> intersection = new HashSet<>(square);
+        intersection.retainAll(cube);
+        System.out.println(union.size() + " unions and " + intersection.size() + " intersections.");
+        System.out.println(Arrays.toString(intersection.toArray()));
+        System.out.println(intersection.toString());
+
+        for (int i : intersection) {
+            System.out.println(i);
+        }
+
+        System.out.println("Square contains all intersection: " + square.containsAll(intersection));
+        union.removeAll(intersection);
+        System.out.println(union.size() + " unions afters removing intersections");
+
+        System.out.println(BodyTypes.ASTEROID);
+
     }
 
-    static void updateArr(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = i * 3;
-        }
-    }
-
-    static void arrSortAsc(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[j] < arr[i]) {
-                    arr[i] = arr[i] + arr[j];
-                    arr[j] = arr[i] - arr[j];
-                    arr[i] = arr[i] - arr[j];
-                }
-            }
-        }
-    }
-
-    static void arrSortDesc(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[j] > arr[i]) {
-                    arr[i] = arr[i] + arr[j];
-                    arr[j] = arr[i] - arr[j];
-                    arr[i] = arr[i] - arr[j];
-                }
-            }
-        }
-    }
-
-    static void reverseArr(int[] arr) {
-        for (int i = 1; i <= arr.length / 2; i++) {
-            arr[i - 1] = arr[i - 1] + arr[arr.length - i];
-            arr[arr.length - i] = arr[i - 1] - arr[arr.length - i];
-            arr[i - 1] = arr[i - 1] - arr[arr.length - i];
-        }
-    }
-
-    static void pyramid(int n){
-        int k=2*n-1;
-        for (int i=0;i<n;i++){
-            for (int j=0;j<k;j++){
-                System.out.print(" ");
-            }
-            k=k-1;
-            for (int j=0;j<=i;j++){
-                System.out.print("*.");
-            }
-            System.out.println();
-        }
-    }
 
 }
 

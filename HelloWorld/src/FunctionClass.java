@@ -109,4 +109,56 @@ public class FunctionClass{
         return "Nothing found";
     }
 
+    static void updateArr(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = i * 3;
+        }
+    }
+
+    static void arrSortAsc(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] < arr[i]) {
+                    arr[i] = arr[i] + arr[j];
+                    arr[j] = arr[i] - arr[j];
+                    arr[i] = arr[i] - arr[j];
+                }
+            }
+        }
+    }
+
+    static void arrSortDesc(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] > arr[i]) {
+                    arr[i] = arr[i] + arr[j];
+                    arr[j] = arr[i] - arr[j];
+                    arr[i] = arr[i] - arr[j];
+                }
+            }
+        }
+    }
+
+    static void reverseArr(int[] arr) {
+        for (int i = 1; i <= arr.length / 2; i++) {
+            arr[i - 1] = arr[i - 1] + arr[arr.length - i];
+            arr[arr.length - i] = arr[i - 1] - arr[arr.length - i];
+            arr[i - 1] = arr[i - 1] - arr[arr.length - i];
+        }
+    }
+
+    static void pyramid(int n){
+        int k=2*n-1;
+        for (int i=0;i<n;i++){
+            for (int j=0;j<k;j++){
+                System.out.print(" ");
+            }
+            k=k-1;
+            for (int j=0;j<=i;j++){
+                System.out.print("*.");
+            }
+            System.out.println();
+        }
+    }
+
 }
