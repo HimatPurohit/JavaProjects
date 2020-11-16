@@ -1,0 +1,131 @@
+<?import javafx.scene.control.Button?>
+
+<!-- GridPane -->
+
+<!--<GridPane fx:controller="sample.Controller"-->
+<!--          xmlns:fx="http://javafx.com/fxml" alignment="top_center" hgap="10" vgap="10"-->
+<!--          gridLinesVisible="true">-->
+<!--    <padding>-->
+<!--        <Insets top="10"/>-->
+<!--    </padding>-->
+<!--    &lt;!&ndash;    <columnConstraints>&ndash;&gt;-->
+<!--    &lt;!&ndash;  Assigns 50% width to first column  &ndash;&gt;-->
+<!--    &lt;!&ndash;        <ColumnConstraints percentWidth="50"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;  Assigns 50% width to first column  &ndash;&gt;-->
+<!--    &lt;!&ndash;        <ColumnConstraints percentWidth="50"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;    </columnConstraints>&ndash;&gt;-->
+<!--    <Button text="Button1" GridPane.columnIndex="0" GridPane.rowIndex="0"/>-->
+<!--    <Button text="Button 2" GridPane.columnIndex="1" GridPane.rowIndex="0"/>-->
+<!--    <Button text="Button3..............." GridPane.rowIndex="1" GridPane.columnSpan="2"-->
+<!--    GridPane.halignment="RIGHT"/>-->
+<!--    <Button text="Button 4" GridPane.columnIndex="1" GridPane.rowIndex="2"/>-->
+<!--</GridPane>-->
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<!--<HBox fx:controller="sample.Controller"-->
+<!--      xmlns:fx="http://javafx.com/fxml" alignment="top_center"-->
+<!--      style="-fx-border-color: red; -fx-border-width: 3; -fx-border-style: dashed"-->
+<!--      spacing="10">-->
+<!--    <padding>-->
+<!--        <Insets top="10"/>-->
+<!--    </padding>-->
+<!--    <Button text="ok"/>-->
+<!--    <Button text="cancel"/>-->
+<!--    <Button text="Help"/>-->
+<!--</HBox>-->
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Label?>
+<!--<BorderPane fx:controller="sample.Controller"-->
+<!--            xmlns:fx="http://javafx.com/fxml">-->
+<!--    <top>-->
+<!--        <Label alignment="CENTER" text="Defining label at top"-->
+<!--               BorderPane.alignment="CENTER"-->
+<!--               style="-fx-border-color:blue; -fx-border-width:3; -fx-border-style:dashed"/>-->
+<!--    </top>-->
+<!--    <left>-->
+<!--        <Label alignment="CENTER" text="Defining label at left"-->
+<!--               style="-fx-border-color:blue; -fx-border-width:3; -fx-border-style:dashed"/>-->
+<!--    </left>-->
+<!--    <right>-->
+<!--        <Label alignment="CENTER" text="Defining label at right"-->
+<!--               style="-fx-border-color:blue; -fx-border-width:3; -fx-border-style:dashed"/>-->
+<!--    </right>-->
+<!--    <center>-->
+<!--        <Label alignment="CENTER" text="Defining loooooooooooooooooooooonnnnnnnnngggg label at center"-->
+<!--               style="-fx-border-color:blue; -fx-border-width:3; -fx-border-style:dashed"/>-->
+<!--    </center>-->
+<!--    <bottom>-->
+<!--        <HBox spacing="10" alignment="TOP_RIGHT">-->
+<!--            <padding>-->
+<!--                <Insets bottom="10" right="10" left="10"/>-->
+<!--            </padding>-->
+<!--            <Button text="ok" prefWidth="90"/>-->
+<!--            <Button text="cancel" prefWidth="90"/>-->
+<!--            <Button text="Help" prefWidth="90"/>-->
+<!--        </HBox>-->
+<!--    </bottom>-->
+<!--</BorderPane>-->
+
+
+<?import javafx.scene.layout.FlowPane?>
+<!--<FlowPane fx:controller="sample.Controller"-->
+<!--          xmlns:fx="http://javafx.com/fxml" orientation="HORIZONTAL">-->
+<!--    <Button text="item 1"/>-->
+<!--    <Button text="item 2"/>-->
+<!--    <Button text="item 3"/>-->
+<!--    <Button text="item 4"/>-->
+<!--    <Button text="item 5"/>-->
+<!--    <Button text="item 6"/>-->
+<!--    <Button text="item 7"/>-->
+<!--    <Button text="item 8"/>-->
+<!--    <Button text="item 9"/>-->
+<!--    <Button text="item 10"/>-->
+<!--</FlowPane>-->
+
+
+<?import javafx.scene.layout.VBox?>
+<!--<VBox fx:controller="sample.Controller"-->
+<!--      xmlns:fx="http://javafx.com/fxml">-->
+<!--    <Button text="item 1"/>-->
+<!--    <Button text="item 2"/>-->
+<!--    <Button text="item 3"/>-->
+<!--    <Button text="item 4"/>-->
+<!--    <Button text="item 5"/>-->
+<!--    <Button text="item 6"/>-->
+<!--    <Button text="item 7"/>-->
+<!--    <Button text="item 8"/>-->
+<!--    <Button text="item 9"/>-->
+<!--    <Button text="item 10"/>-->
+<!--</VBox>-->
+
+<?import javafx.scene.layout.TilePane?>
+<!--<TilePane fx:controller="sample.Controller"-->
+<!--          xmlns:fx="http://javafx.com/fxml">-->
+<!--    <Button text="item 1"/>-->
+<!--    <Button text="item 2"/>-->
+<!--    <Button text="item 3"/>-->
+<!--    <Button text="item 4"/>-->
+<!--    <Button text="item 5"/>-->
+<!--    <Button text="item 6"/>-->
+<!--    <Button text="item 7"/>-->
+<!--    <Button text="item 8"/>-->
+<!--    <Button text="item 9"/>-->
+<!--    <Button text="item 10"/>-->
+<!--</TilePane>-->
+
+<?import javafx.scene.layout.StackPane?>
+<StackPane fx:controller="sample.Controller"
+           xmlns:fx="http://javafx.com/fxml">
+    <Button text="item 1"/>
+    <Button text="item 2"/>
+    <Button text="item 3"/>
+    <Button text="item 4"/>
+    <Button text="item 5"/>
+    <Button text="item 6"/>
+    <Button text="item 7"/>
+    <Button text="item 8"/>
+    <Button text="item 9"/>
+    <Button text="item 10"/>
+</StackPane>
