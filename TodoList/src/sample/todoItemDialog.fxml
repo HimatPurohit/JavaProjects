@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.DatePicker?>
+<DialogPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.TodoItemDialog">
+    <headerText>
+        We can put any message or description here.
+    </headerText>
+    <content>
+        <GridPane vgap="10" hgap="10">
+            <Label text="Short Description:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="shortDescriptionTextField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+            <Label text="Details:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <TextArea fx:id="detailsTextArea" GridPane.rowIndex="1" GridPane.columnIndex="1" wrapText="true"/>
+            <Label text="Deadline:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <DatePicker fx:id="deadlineDatePicker" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+        </GridPane>
+    </content>
+</DialogPane>
