@@ -20,15 +20,204 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/TodoItemDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/todoItemDialog.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/Applet16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/Applet24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/Application16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/Application24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/ApplicationDeploy16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/ApplicationDeploy24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/Bean16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/Bean24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/BeanAdd16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/BeanAdd24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/EnterpriseJavaBean16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/EnterpriseJavaBean24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/EnterpriseJavaBeanJar16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/EnterpriseJavaBeanJar24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/Host16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/Host24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/J2EEApplication16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/J2EEApplication24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/J2EEApplicationClient16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/J2EEApplicationClient24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/J2EEApplicationClientAdd16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/J2EEApplicationClientAdd24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/J2EEServer16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/J2EEServer24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/Jar16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/Jar24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/JarAdd16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/JarAdd24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/Server16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/Server24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/War16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/War24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/WarAdd16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/WarAdd24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/WebComponent16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/WebComponent24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/WebComponentAdd16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/development/WebComponentAdd24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/About16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/About24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Add16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Add24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/AlignBottom16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/AlignBottom24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/AlignCenter16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/AlignCenter24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/AlignJustifyHorizontal16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/AlignJustifyHorizontal24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/AlignJustifyVertical16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/AlignJustifyVertical24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/AlignLeft16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/AlignLeft24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/AlignRight16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/AlignRight24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/AlignTop16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/AlignTop24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Bookmarks16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Bookmarks24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/ComposeMail16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/ComposeMail24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/ContextualHelp16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/ContextualHelp24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Copy16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Copy24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Cut16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Cut24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Delete16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Delete24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Edit16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Edit24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Export16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Export24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Find16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Find24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/FindAgain16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/FindAgain24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Help16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Help24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/History16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/History24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Import16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Import24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Information16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Information24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/New16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/New24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Open16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Open24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/PageSetup16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/PageSetup24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Paste16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Paste24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Preferences16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Preferences24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Print16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Print24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/PrintPreview16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/PrintPreview24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Properties16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Properties24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Redo16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Redo24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Refresh16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Refresh24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Remove16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Remove24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Replace16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Replace24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Save16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Save24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/SaveAll16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/SaveAll24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/SaveAs16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/SaveAs24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Search16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Search24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/SendMail16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/SendMail24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Stop16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Stop24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/TipOfTheDay16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/TipOfTheDay24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Undo16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Undo24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Zoom16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/Zoom24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/ZoomIn16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/ZoomIn24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/ZoomOut16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/general/ZoomOut24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/FastForward16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/FastForward24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/Movie16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/Movie24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/Pause16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/Pause24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/Play16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/Play24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/Rewind16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/Rewind24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/StepBack16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/StepBack24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/StepForward16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/StepForward24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/Stop16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/Stop24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/Volume16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/media/Volume24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/navigation/Back16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/navigation/Back24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/navigation/Down16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/navigation/Down24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/navigation/Forward16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/navigation/Forward24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/navigation/Home16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/navigation/Home24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/navigation/Up16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/navigation/Up24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/table/ColumnDelete16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/table/ColumnDelete24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/table/ColumnInsertAfter16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/table/ColumnInsertAfter24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/table/ColumnInsertBefore16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/table/ColumnInsertBefore24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/table/RowDelete16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/table/RowDelete24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/table/RowInsertAfter16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/table/RowInsertAfter24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/table/RowInsertBefore16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/table/RowInsertBefore24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/AlignCenter16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/AlignCenter24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/AlignJustify16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/AlignJustify24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/AlignLeft16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/AlignLeft24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/AlignRight16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/AlignRight24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/Bold16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/Bold24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/Italic16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/Italic24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/Normal16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/Normal24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/Underline16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/toolbarButtonGraphics/text/Underline24.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoListItems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TodoListItems.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TodoList/sample/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TodoList/sample/Controller$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TodoList/sample/Controller$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TodoList/sample/Controller$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TodoList/sample/Controller$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TodoList/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TodoList/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TodoList/sample/datamodel/TodoData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TodoList/sample/datamodel/TodoData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TodoList/sample/datamodel/TodoItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TodoList/sample/datamodel/TodoItem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TodoList/sample/mainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TodoList/sample/mainWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/datamodel/TodoData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/datamodel/TodoData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/datamodel/TodoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/datamodel/TodoItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/mainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/mainWindow.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,11 +312,20 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Crazysoul1607\Github Backed\JavaProjects\TodoList\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Crazysoul1607\Github Backed\JavaProjects\TodoList" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -242,10 +440,10 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="249" y="0" key="#Project_Structure" timestamp="1605811022346">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1606140530684">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1605811022346" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1606140530684" />
     <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1605978333337">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -254,22 +452,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1605974308284" />
-    <state width="1500" height="213" key="GridCell.Tab.0.bottom" timestamp="1605979151959">
+    <state x="473" y="159" key="FileChooserDialogImpl" timestamp="1606140524760">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1500" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1605979151959" />
-    <state width="1500" height="213" key="GridCell.Tab.0.center" timestamp="1605979151959">
+    <state x="473" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606140524760" />
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1606154335325">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1500" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1605979151959" />
-    <state width="1500" height="213" key="GridCell.Tab.0.left" timestamp="1605979151958">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606154335325" />
+    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1606154335325">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1500" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1605979151958" />
-    <state width="1500" height="213" key="GridCell.Tab.0.right" timestamp="1605979151959">
+    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606154335325" />
+    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1606154335325">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1500" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1605979151959" />
+    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606154335325" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1606154335325">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606154335325" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1605975221838">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

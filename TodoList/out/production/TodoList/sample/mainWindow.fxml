@@ -9,22 +9,49 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.control.ToggleButton?>
 <BorderPane fx:id="mainWindowBorderPane" fx:controller="sample.Controller"
             xmlns:fx="http://javafx.com/fxml">
     <top>
-        <MenuBar>
-            <Menu text="File">
-                <items>
-                    <MenuItem text="New" onAction="#showNewItemDialog"/>
-                    <SeparatorMenuItem/>
-                    <MenuItem text="Exit"/>
-                </items>
-            </Menu>
-        </MenuBar>
+<VBox>
+    <MenuBar>
+        <Menu text="File">
+            <items>
+                <MenuItem text="New" onAction="#showNewItemDialog"/>
+                <SeparatorMenuItem/>
+                <MenuItem text="Exit" onAction="#handleExit"/>
+            </items>
+        </Menu>
+    </MenuBar>
+    <ToolBar>
+        <HBox>
+            <Button onAction="#showNewItemDialog">
+                <tooltip>
+                    <Tooltip text="Add New ToDo Item"/>
+                </tooltip>
+                <graphic>
+                    <ImageView>
+                        <Image url="@../res/toolbarButtonGraphics/general/New24.gif"/>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <ToggleButton fx:id="filterToggleButton" text="Today's Item" onAction="#handleFilterButton">
+            <tooltip>
+            <Tooltip text="Show Only Todays Item"/>
+            </tooltip>
+            </ToggleButton>
+        </HBox>
+    </ToolBar>
+</VBox>
     </top>
     <left>
         <!--        <ListView fx:id="todoListView" onMouseClicked="#handleClickListView"/>-->
-        <ListView fx:id="todoListView"/>
+        <ListView fx:id="todoListView" onKeyPressed="#handleKeyPressed"/>
     </left>
     <center>
         <VBox style="-fx-background-color: white">
