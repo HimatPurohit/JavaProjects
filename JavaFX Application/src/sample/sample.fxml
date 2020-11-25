@@ -1,0 +1,27 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.web.WebView?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10"
+          stylesheets="@styles.css" fx:id="gridPane">
+    <Button fx:id="Open" onAction="#handleClick" text="Open..." GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <Button fx:id="Button2" text="Button 2" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+    <Button fx:id="Button3" text="Button 3" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+    <Button fx:id="Button4" text="Button 4" GridPane.rowIndex="0" GridPane.columnIndex="4"/>
+    <Button fx:id="Button5" text="Button 5" GridPane.rowIndex="0" GridPane.columnIndex="5"/>
+
+    <RadioButton text="Choice 1" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <Label text="JavaFX effects scaling" fx:id="label1" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <Label text="JavaFX effects mouse events" fx:id="label2" GridPane.rowIndex="3" GridPane.columnIndex="0"
+    onMouseEntered="#handleMouseEnter" onMouseExited="#handleMouseExit"/>
+    <Label text="JavaFX effects rotate" fx:id="label3" GridPane.rowIndex="4" GridPane.columnIndex="0" rotate="90"/>
+
+    <Hyperlink text="www.google.com" GridPane.rowIndex="5" GridPane.columnIndex="0" onAction="#handleLinkClick"/>
+    <WebView fx:id="webView" GridPane.rowIndex="6" GridPane.columnIndex="0" GridPane.columnSpan="5" GridPane.rowSpan="3"/>
+
+</GridPane>
