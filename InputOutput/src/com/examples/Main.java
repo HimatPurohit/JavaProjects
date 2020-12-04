@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
-    private static Locations4 locations = new Locations4();
+    private static Locations5 locations = new Locations5();
 
     public static void main(String[] args) {
         // Change the program to allow players to type full words, or phrases, then move to the
