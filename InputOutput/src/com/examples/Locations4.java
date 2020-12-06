@@ -8,7 +8,7 @@ public class Locations4 implements Map<Integer, Location> {
 
     public static void main(String[] args) throws IOException {
 
-        try (DataOutputStream locationFile = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("locations.dat")))) {
+        try (DataOutputStream locationFile = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("locations4.dat")))) {
             for (Location location : locations.values()) {
                 locationFile.writeInt(location.getLocationID());
                 locationFile.writeUTF(location.getDescription());
@@ -26,7 +26,7 @@ public class Locations4 implements Map<Integer, Location> {
     }
 
     static {
-        try (DataInputStream locationFile = new DataInputStream(new BufferedInputStream(new FileInputStream("locations.dat")))) {
+        try (DataInputStream locationFile = new DataInputStream(new BufferedInputStream(new FileInputStream("locations4.dat")))) {
             boolean eof = false;
             while (!eof) {
                 try {

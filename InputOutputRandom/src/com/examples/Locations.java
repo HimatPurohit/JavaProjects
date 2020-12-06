@@ -6,14 +6,47 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class Locations5 implements Map<Integer, Location> {
+public class Locations implements Map<Integer, Location> {
     private static Map<Integer, Location> locations = new LinkedHashMap<Integer, Location>();
+    private static Map<Integer, IndexRecord> index = new LinkedHashMap<>();
 
     public static void main(String[] args) throws IOException {
 
-        try (ObjectOutputStream locFile = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream("locations5.dat")))) {
+        try (RandomAccessFile randFile = new RandomAccessFile("locations_rand.dat", "rwd")) {
+            randFile.writeInt(locations.size());
+            int indexSize = locations.size() * 3 * Integer.BYTES;
+            int locationStart = (int) (indexSize + randFile.getFilePointer() + Integer.BYTES);
+            randFile.writeInt(locationStart);
+            long indexStart = randFile.getFilePointer();
+
+            int startPointer = locationStart;
+            randFile.seek(startPointer);
+
             for (Location location : locations.values()) {
-                locFile.writeObject(location);
+                randFile.writeInt(location.getLocationID());
+                randFile.writeUTF(location.getDescription());
+                StringBuilder stringBuilder = new StringBuilder();
+                for (String direction : location.getExits().keySet()) {
+                    if (!direction.equalsIgnoreCase("Q")) {
+                        stringBuilder.append(direction);
+                        stringBuilder.append(",");
+                        stringBuilder.append(location.getExits().get(direction));
+                        stringBuilder.append(",");
+                    }
+                }
+
+                randFile.writeUTF(stringBuilder.toString());
+
+                IndexRecord record = new IndexRecord(startPointer, (int) (randFile.getFilePointer()));
+                index.put(location.getLocationID(), record);
+                startPointer = (int) randFile.getFilePointer();
+            }
+
+            randFile.seek(indexStart);
+            for (Integer locationId : index.keySet()) {
+                randFile.writeInt(locationId);
+                randFile.writeInt(index.get(locationId).getStartByte());
+                randFile.writeInt(index.get(locationId).getLength());
             }
         }
 
