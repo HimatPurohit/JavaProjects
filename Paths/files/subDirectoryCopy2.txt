@@ -1,0 +1,4 @@
+File within sub directory
+line 1
+line 2
+etc
