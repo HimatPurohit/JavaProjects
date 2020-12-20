@@ -30,7 +30,7 @@ public class JavaIONIO {
         System.out.println("workingDirectory " + workingDirectory.getAbsolutePath());
 
 
-        File copyFiles = new File(workingDirectory, "copyFiles/Dir1Copy");
+        File copyFiles = new File(workingDirectory, "copyFiles");
 
         // Print copyFiles contents using list
         System.out.println("List files within " + copyFiles + " using list");

@@ -1,10 +1,8 @@
 package com.examples;
 
+import java.io.File;
 import java.io.IOException;
-import java.nio.file.FileVisitResult;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.SimpleFileVisitor;
+import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
 
 public class copyFiles extends SimpleFileVisitor<Path> {
@@ -24,7 +22,8 @@ public class copyFiles extends SimpleFileVisitor<Path> {
         Path copyPath = targetRoot.resolve(relativizedPath);
         System.out.println("resolved path for copy: " + copyPath);
         try {
-            Files.copy(file,copyPath);
+//            Files.copy(file,copyPath);
+            Files.copy(file,copyPath, StandardCopyOption.REPLACE_EXISTING);
         }catch (IOException e){
             System.out.println(e.getMessage());
         }
@@ -34,14 +33,15 @@ public class copyFiles extends SimpleFileVisitor<Path> {
     @Override
     public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) throws IOException {
         Path relativizedPath = sourceRoot.relativize(dir);
-        System.out.println("relativizedPath: " + relativizedPath);
+        System.out.println("relativizedPath dir: " + relativizedPath + " dir path: "+dir.toAbsolutePath());
 
         Path copyPath = targetRoot.resolve(relativizedPath);
         System.out.println("resolved path for copy: " + copyPath);
         try {
-            Files.copy(dir,copyPath);
+//            Files.copy(dir,copyPath);
+            Files.copy(dir,copyPath, StandardCopyOption.REPLACE_EXISTING);
         }catch (IOException e){
-            System.out.println(e.getMessage());
+            System.out.println("IOException: "+e.getMessage());
             return FileVisitResult.SKIP_SUBTREE;
         }
         return FileVisitResult.CONTINUE;

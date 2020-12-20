@@ -34,8 +34,8 @@ public class AccessDirectoryContent {
         // specific files matching glob pattern are listed
 //        DirectoryStream<Path> pathDirectoryStream= Files.newDirectoryStream(dirPath,"*.txt")
         // Filter the files files being listed using DirectoryStream.Filter<Path>
-//        DirectoryStream<Path> pathDirectoryStream= Files.newDirectoryStream(dirPath,"*.txt")
-        try (DirectoryStream<Path> pathDirectoryStream = Files.newDirectoryStream(dirPath, filter)) {
+//        DirectoryStream<Path> pathDirectoryStream= Files.newDirectoryStream(dirPath,filter)
+        try (DirectoryStream<Path> pathDirectoryStream = Files.newDirectoryStream(dirPath)) {
             // Returns files directly in the path
             for (Path file : pathDirectoryStream) {
                 System.out.println(file.getFileName());
@@ -62,8 +62,8 @@ public class AccessDirectoryContent {
 
 
         // Listing all the volumes in windows and root in linux/mac OS
-        Iterable<Path> rootPaths=FileSystems.getDefault().getRootDirectories();
-        for (Path path:rootPaths){
+        Iterable<Path> rootPaths = FileSystems.getDefault().getRootDirectories();
+        for (Path path : rootPaths) {
             System.out.println(path);
         }
 
@@ -71,16 +71,16 @@ public class AccessDirectoryContent {
         System.out.println("******* Walking file Tree *******");
 //        dirPath = FileSystems.getDefault().getPath("createdDir" + File.separator + "Dir1");
         try {
-            Files.walkFileTree(dirPath,new PrintFileNames());
-        }catch (IOException e){
+            Files.walkFileTree(dirPath, new PrintFileNames());
+        } catch (IOException e) {
             System.out.println(e.getMessage());
         }
 
         System.out.println("Copying createdDir/Dir1 to copyDir/Dir1Copy");
-        Path copyPath=FileSystems.getDefault().getPath("copyFiles"+File.separator+"Dir1Copy");
+        Path copyPath = FileSystems.getDefault().getPath("copyFiles");
         try {
-            Files.walkFileTree(dirPath,new copyFiles(dirPath,copyPath));
-        }catch (IOException e){
+            Files.walkFileTree(dirPath, new copyFiles(dirPath, copyPath));
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
