@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03088860-77cc-45b6-83d1-6ff52af5c423" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Banking.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/examples/Testing/Banking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/examples/Testing/BankingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/examples/Testing/BankingTestParameterized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/examples/Testing/Challenges/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/examples/Testing/Challenges/UtilitiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/examples/Testing/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DebuggerDemo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DebuggerDemo/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DebuggerDemo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DebuggerDemo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DebuggerDemo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DebuggerDemo/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DebuggerDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DebuggerDemo/DebuggerDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DebuggerDemo/src/com/examples/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DebuggerDemo/src/com/examples/StringUtilities.java" afterDir="false" />
-    </list>
+    <list default="true" id="03088860-77cc-45b6-83d1-6ff52af5c423" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
